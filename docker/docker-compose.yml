@@ -11,7 +11,7 @@ services:
       - POSTGRES_USER=DSi
       - POSTGRES_PASSWORD=S3cr3T
   app:
-    image: dsi-dev-profiles-backend:master
+    image: Developer-Productivity-Analytics-Backend:master
     build:
       context: ..
       dockerfile: docker/Dockerfile
